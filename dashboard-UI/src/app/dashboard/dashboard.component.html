@@ -1,0 +1,54 @@
+<div class="main-container">
+  <div class="header">
+    <div class="row">
+      <div class="col-6"><h2>Slaes Dashboard</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="body-content">
+    <div class="row d-flex justify-content-between">
+      <div class="col-lg-6 col-12 row-item m-2">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="chartOptions1"
+
+          style="width: 100%; height: 400px; display: block;"
+        ></highcharts-chart>      </div>
+      <div class="col-lg-6 col-12  row-item m-2">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="chartOptions2"
+
+          style="width: 100%; height: 400px; display: block;"
+        ></highcharts-chart>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-between">
+      <div class="col-lg-4 col-12  row-item m-2">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="chartOptions3"
+
+          style="width: 100%; height: 400px; display: block;"
+        ></highcharts-chart>
+      </div>
+      <div class="col-lg-4 col-12  row-item m-2">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="chartOptions4"
+
+          style="width: 100%; height: 400px; display: block;"
+        ></highcharts-chart>
+      </div>
+      <div class="col-lg-4 col-12  row-item m-2">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="chartOptions5"
+
+          style="width: 100%; height: 400px; display: block;"
+        ></highcharts-chart>
+      </div>
+    </div>
+  </div>
+</div>
